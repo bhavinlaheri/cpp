@@ -1,0 +1,61 @@
+Cpp interview question and answer.
+
+Q. What is class?
+-> Class is user defined data types, which hold own data member and data function,
+   which can be used and access by the instance of the class.
+
+Q. What is object?
+-> Object is instance of the class.
+
+Q. What do you mean by access specifier?
+-> There are three type of access specifier(also call modifier).
+	1)Private
+	2)Protect
+	3)Public
+
+   Private:
+	The class member declared as private can be accessed only by the function inside
+	the class ans fried class.They are not allowed to be accessed by the outside fuction
+	or object.
+
+   Public: 
+	The classs member declared as public can be accessed directly by other fuction.
+
+   Proctected:
+	Proctected member is same as private but only differnce between is it accesssed in derived
+	class of the class. 
+	 
+Q. List and explain OOPS concept.
+-> OOPS concept are listed below.
+	1)Encapsulation.
+	2)Data abstraction
+	3)Inheritance
+	4)Polymorphism
+
+	1) Encapsulation
+	Encapsulation defined as bindind together ther data and functions that manipulates them.
+	Note: Encapsulation is achived by the access specifier.
+	
+	2) Data abstraction
+	Data abstraction means displaying essential information and hiding the details.
+	
+	3) Inheritance
+	The capability of class to derive properties and characteristis from another class is called
+	inheritance.
+
+	4) Polimorphism
+	One name but many forms.
+
+
+
+
+
+Q. Difference betweeen class and struct in cpp.
+-> There two difference between class and structure in cpp.
+	1) Default access specifier in class is privat but for strucyt it is public,
+		i.e there is no encapsulation.
+	2) When struct derived from other struct default access specifier is puclic,
+		for class it is private.
+
+Except above differnce class and strcut is same in cpp.
+
