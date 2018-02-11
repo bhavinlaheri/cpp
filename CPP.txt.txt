@@ -8,7 +8,7 @@ Q. What is object?
 -> Object is instance of the class.
 
 Q. What do you mean by access specifier?
--> There are three type of access specifier(also call modifier).
+-> There are three type of access specifier(modifier).
 	1)Private
 	2)Protect
 	3)Public
@@ -33,25 +33,24 @@ Q. List and explain OOPS concept.
 	4)Polymorphism
 
 	1) Encapsulation
-	Encapsulation defined as bindind together ther data and functions that manipulates them.
-	Note: Encapsulation is achived by the access specifier.
+	Encapsulation defined as bindind together their data and functions that manipulates them.
+	Note: Encapsulation is achieved by the access specifier.
 	
 	2) Data abstraction
 	Data abstraction means displaying essential information and hiding the details.
+	Note: Abstraction is  achieved by the member function. 
 	
 	3) Inheritance
 	The capability of class to derive properties and characteristis from another class is called
 	inheritance.
 
 	4) Polimorphism
-	One name but many forms.
-
-
-
-
+	One name but many forms.We can define mutiple function with same name but diffrerent in types of argument.
+	ex.void func(int), void func(), void func(char), void func(int, int)
+	Note : The return type will be same.
 
 Q. Difference betweeen class and struct in cpp.
--> There two difference between class and structure in cpp.
+-> There is two difference between class and structure in cpp.
 	1) Default access specifier in class is privat but for strucyt it is public,
 		i.e there is no encapsulation.
 	2) When struct derived from other struct default access specifier is puclic,
